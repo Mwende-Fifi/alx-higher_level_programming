@@ -1,22 +1,2 @@
 #!/usr/bin/python3
-print(f"The Zen of Python, by Tim Peters")
-
-print(f"Beautiful is better than ugly.")
-print(f"Explicit is better than implicit.")
-print(f"Simple is better than complex.")
-print(f"Complex is better than complicated.")
-print(f"Flat is better than nested.")
-print(f"Sparse is better than dense.")
-print(f"Readability counts."
-print(f"Special cases aren't special enough to break the rules.")
-print(f"Although practicality beats purity.")
-print(f"Errors should never pass silently.")
-print(f"Unless explicitly silenced.")
-print(f"In the face of ambiguity, refuse the temptation to guess.")
-print(f"There should be one-- and preferably only one --obvious way to do it.")
-print(f"Although that way may not be obvious at first unless you're Dutch.")
-print(f"Now is better than never.")
-print(f"Although never is often better than *right* now.")
-print(f"If the implementation is hard to explain, it's a bad idea.")
-print(f"If the implementation is easy to explain, it may be a good idea.")
-print(f"Namespaces are one honking great idea -- let's do more of those!")
+print(f"The Zen of Python, by Tim Peters\n")
