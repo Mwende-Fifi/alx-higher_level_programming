@@ -7,13 +7,3 @@ def no_c(my_string):
             new_string += char
 
             return new_string
-
-        if __name__ == "__main__":
-            my_string = "Best School"
-            print(no_c(my_string))
-
-            my_string = "Chicago"
-            print(no_c(my_string))
-
-            my_string = "C is fun"
-            print(no_c(my_string))
