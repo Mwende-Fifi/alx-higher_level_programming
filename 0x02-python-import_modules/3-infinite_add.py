@@ -2,6 +2,7 @@
 
 import sys
 
+
 def infinite_add(*args):
     """Prints the result of the addition of all arguments."""
     sum = 0
