@@ -6,5 +6,5 @@ if __name__ == "__main__":
     my_list = [1, 2, 3, 4, 5]
     if my_list:
         for i in reversed(my_list):
-            print("{:d}".format(i))
+            print('{:d}'.format(i))
 
