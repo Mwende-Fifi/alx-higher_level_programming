@@ -2,7 +2,7 @@
 
 import sys
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     av = sys.argv
     l_av = len(av)
     sum = 0
