@@ -16,4 +16,4 @@ if __name__ == "__main__":
     elif l_av > 1:
         print(l_av, "arguments:")
         for i in range(l_av):
-            print("{:d}: {}".format(i + 1, av[i]))
+            print("{:d}: {}".format(i, av[i]))
