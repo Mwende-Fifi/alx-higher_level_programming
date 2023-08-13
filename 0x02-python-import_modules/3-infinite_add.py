@@ -2,14 +2,13 @@
 
 import sys
 
-
-def infinite_add(*args):
-    """Prints the result of the addition of all arguments."""
+if __name__ == "__main__":
+    av = sys.argv
+    l_av = len(av)
     sum = 0
-    for arg in args:
-        sum += int(arg)
 
-        print(sum)
+    if l_av > 1:
+        for i in range(1, l_av):
+            sum += int(av[i])
 
-        if __name__ == "__main__":
-            infinite_add(*sys.argv[1:])
+            print(sum)
