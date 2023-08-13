@@ -12,7 +12,7 @@ if __name__ == "__main__":
     elif l_av == 1:
         print(l_av, "argument:")
         print("{:d}: {}".format(1, av[0]))
-        
+
     else:
         print(l_av, "arguments:")
         for i in range(l_av):
