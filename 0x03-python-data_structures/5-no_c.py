@@ -2,6 +2,7 @@
 def no_c(my_string):
     new_str = ''
     for i in my_string:
-        if i != C and i != c:
+        if ord(i) not in (ord('c'), ord('C')):
             new_str += i
-            return new_str
+
+    return new_str
